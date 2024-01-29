@@ -1,18 +1,22 @@
-
 import './App.css'
-import Student from './Student'
+import MyProfile from './Components/MyProfile';
+
+const user = {
+  name: 'Hedy Lamarr',
+  imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
+  imageSize: 90,
+};
 
 function App() {
 
-  const st = {
-    id: 37,
-    nam: "taief"
-  }
+
   return (
     <>
-      <Student st={st}></Student>
+
+      {/* <MyProfile user={user}></MyProfile> */}
     </>
   )
 }
 
 export default App
+
