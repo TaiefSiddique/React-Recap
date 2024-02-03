@@ -1,6 +1,7 @@
 import './App.css'
 //import ConditionalRendering from './Components/ConditionalRendering'
-import RenderingLists from './Components/RenderingLists'
+//import RenderingLists from './Components/RenderingLists'
+import RespondingToEvents from './Components/RespondingToEvents'
 // import MyProfile from './Components/MyProfile';
 
 // const user = {
@@ -14,7 +15,8 @@ function App() {
 
   return (
     <>
-      <RenderingLists></RenderingLists>
+      <RespondingToEvents></RespondingToEvents>
+      {/* <RenderingLists></RenderingLists> */}
       {/* <ConditionalRendering></ConditionalRendering> */}
       {/* <MyProfile user={user}></MyProfile> */}
     </>
