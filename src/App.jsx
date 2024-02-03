@@ -1,5 +1,6 @@
 import './App.css'
-import ConditionalRendering from './Components/ConditionalRendering'
+//import ConditionalRendering from './Components/ConditionalRendering'
+import RenderingLists from './Components/RenderingLists'
 // import MyProfile from './Components/MyProfile';
 
 // const user = {
@@ -13,7 +14,8 @@ function App() {
 
   return (
     <>
-      <ConditionalRendering></ConditionalRendering>
+      <RenderingLists></RenderingLists>
+      {/* <ConditionalRendering></ConditionalRendering> */}
       {/* <MyProfile user={user}></MyProfile> */}
     </>
   )
