@@ -1,8 +1,9 @@
 import './App.css'
-import MyApp1 from './Components/MyApp1'
+import CounterUsingState from './Components/CounterUsingState'
+//import MyApp1 from './Components/MyApp1'
 //import ConditionalRendering from './Components/ConditionalRendering'
 //import RenderingLists from './Components/RenderingLists'
-import RespondingToEvents from './Components/RespondingToEvents'
+//import RespondingToEvents from './Components/RespondingToEvents'
 // import MyProfile from './Components/MyProfile';
 
 // const user = {
@@ -16,8 +17,9 @@ function App() {
 
   return (
     <>
-      <MyApp1></MyApp1>
-      <RespondingToEvents></RespondingToEvents>
+      <CounterUsingState></CounterUsingState>
+      {/* <MyApp1></MyApp1>
+      <RespondingToEvents></RespondingToEvents> */}
       {/* <RenderingLists></RenderingLists> */}
       {/* <ConditionalRendering></ConditionalRendering> */}
       {/* <MyProfile user={user}></MyProfile> */}
