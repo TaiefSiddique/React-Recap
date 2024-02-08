@@ -1,5 +1,6 @@
 import './App.css'
-import CounterUsingState from './Components/CounterUsingState'
+import CounterUpdatingTogether from './Components/CounterUpdatingTogether'
+//import CounterUsingState from './Components/CounterUsingState'
 //import MyApp1 from './Components/MyApp1'
 //import ConditionalRendering from './Components/ConditionalRendering'
 //import RenderingLists from './Components/RenderingLists'
@@ -17,7 +18,8 @@ function App() {
 
   return (
     <>
-      <CounterUsingState></CounterUsingState>
+      <CounterUpdatingTogether></CounterUpdatingTogether>
+      {/* <CounterUsingState></CounterUsingState> */}
       {/* <MyApp1></MyApp1>
       <RespondingToEvents></RespondingToEvents> */}
       {/* <RenderingLists></RenderingLists> */}
